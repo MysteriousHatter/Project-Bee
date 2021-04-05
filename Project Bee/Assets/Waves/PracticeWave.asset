@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c517ccc7c454b4896695f62889c2f9, type: 3}
+  m_Name: PracticeWave
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 5359048313941306636, guid: c8c6e150bdad13945a8a8f0281440bda, type: 3}
+  pathPrefab: {fileID: 5297960810396225798, guid: 3361a64bc61822a47ae42578dcfb913b, type: 3}
+  timeBetweenSpawns: 5
+  spawnRandomFactor: 1.12
+  numberOfEnemies: 2
+  moveSpeed: 2
