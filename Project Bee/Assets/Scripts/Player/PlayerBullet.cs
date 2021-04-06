@@ -14,6 +14,13 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if ((collision.gameObject.tag == "Pickup") || (collision.gameObject.tag == "Player"))
+        {
+
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 }

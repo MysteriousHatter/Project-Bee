@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 
 {
@@ -7,9 +9,11 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 Bounds;
     private readonly float objectWidth;
     private readonly float objectHeight;
+    [SerializeField] AudioClip buzzing;
 
     private void Start()
     {
+        GetComponent<AudioSource>().PlayOneShot(buzzing);
         Cursor.lockState = CursorLockMode.Confined;
         Bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }
@@ -32,7 +36,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Pickup")) {
+        //Debug.Log(collision.gameObject.tag);
+        if ((collision.gameObject.tag == "Pickup") || (collision.gameObject.tag=="PlayerBullet")) {
+            
+        }
+        else
+        {
             Destroy(gameObject);
         }
     }

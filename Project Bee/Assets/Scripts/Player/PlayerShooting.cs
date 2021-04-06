@@ -6,6 +6,7 @@ public class PlayerShooting : MonoBehaviour
 {
     public GameObject bullet;
     private bool allowFire = false;
+    public Animator anim;
 
     // Update is called once per frame
     void Update()
@@ -15,14 +16,17 @@ public class PlayerShooting : MonoBehaviour
 
     private void Fire()
     {
+        anim = GetComponent<Animator>();
         if (Input.GetMouseButtonDown(0))
         {
+            anim.SetTrigger("Firing");
             allowFire = true;
             StartCoroutine(FireWeapons());
             
         }
         if (Input.GetMouseButtonUp(0))
         {
+            anim.SetTrigger("CeaseFire");
             allowFire = false;
             StopCoroutine(FireWeapons());
             

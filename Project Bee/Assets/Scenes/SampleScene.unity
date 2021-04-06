@@ -1155,5 +1155,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bomber(G)
       objectReference: {fileID: 0}
+    - target: {fileID: 8370148816033863774, guid: 0b699cd147edc2d46b3c2f06416364c2, type: 3}
+      propertyPath: bulletPre
+      value: 
+      objectReference: {fileID: 7968697286094836256, guid: 6cd7b8d860caa0c4b8ac1d934bab6be6, type: 3}
+    - target: {fileID: 8370148816033863774, guid: 0b699cd147edc2d46b3c2f06416364c2, type: 3}
+      propertyPath: maxTimeBetweenShots
+      value: 1.76
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b699cd147edc2d46b3c2f06416364c2, type: 3}
