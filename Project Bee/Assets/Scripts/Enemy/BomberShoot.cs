@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,15 +8,34 @@ public class BomberShoot : MonoBehaviour
     public Transform shoot1, shoot2, shoot3;
     public BomberFollowScript toShoot;
     public GameObject bulletPre;
+    float shotCounter;
+    [SerializeField] float minTimeBetweenShots = 0.2f;
+    [SerializeField] float maxTimeBetweenShots = 3f;
 
     // Start is called before the first frame update
     void Start()
     {
         shoot1.GetComponent<Transform>();
+        shotCounter = UnityEngine.Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
     }
 
     // Update is called once per frame
     void Update()
+    {
+        CountDownAndShoot();
+    }
+
+    private void CountDownAndShoot()
+    {
+        shotCounter -= Time.deltaTime;
+        if (shotCounter <= 0f)
+        {
+            FireWeapons();
+            shotCounter = UnityEngine.Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+        }
+    }
+
+    void FireWeapons()
     {
         if (this.gameObject.tag == "Bomb")
         {
@@ -30,13 +50,16 @@ public class BomberShoot : MonoBehaviour
                 enemyBlast.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -900f);
             }
         }
-        else if(this.gameObject.tag == "Bomb(G)")
+        else if (this.gameObject.tag == "Bomb(G)")
         {
             if (toShoot.canMove != false)
             {
                 GameObject eneBlast = Instantiate(bulletPre, shoot1.position, shoot1.rotation) as GameObject;
-                eneBlast.GetComponent<Rigidbody2D>().AddForce(-transform.up * 14f, ForceMode2D.Impulse);
+              
+                //eneBlast.GetComponent<Rigidbody2D>().AddForce(-transform.up * 14f, ForceMode2D.Impulse);
             }
         }
+
+
     }
 }
