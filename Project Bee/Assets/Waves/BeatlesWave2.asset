@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c517ccc7c454b4896695f62889c2f9, type: 3}
+  m_Name: BeatlesWave2
+  m_EditorClassIdentifier: 
+  enemyPrefab:
+  - {fileID: 690137815709017573, guid: 46f2127a66befad4b98b87c79f8e56f4, type: 3}
+  - {fileID: 203594837014052242, guid: 10784211c11486947af8b3493b0e719c, type: 3}
+  - {fileID: 9081915160905900985, guid: 576da394a9d3777448dcec4047ebae74, type: 3}
+  enemyPrefab2: {fileID: 0}
+  pathPrefab: {fileID: 2546842580469531763, guid: cd433d67d6376754fa5a369f2aa38611, type: 3}
+  timeBetweenSpawns: 2
+  spawnRandomFactor: 0.3
+  numberOfEnemies: 7
+  moveSpeed: 7

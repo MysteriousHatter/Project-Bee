@@ -13,6 +13,7 @@ public class EnemySpawner : MonoBehaviour
         do
         {
             yield return StartCoroutine(SpawnAllWaves());
+            Debug.Log(looping);
         }
         while (looping);
 
@@ -32,14 +33,13 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int enemyCount = 0; enemyCount < waveConfig.GetNumberOfEnemies(); enemyCount++)
         {
-            var newEnemy = Instantiate(waveConfig.GetEnemyPrefab(), waveConfig.GetWayPoints()[0].transform.position, Quaternion.identity);
+            int i = UnityEngine.Random.Range(0, waveConfig.enemyPrefab.Count);
+             var newEnemy = Instantiate(waveConfig.GetEnemyPrefab()[i], waveConfig.GetWayPoints()[0].transform.position, Quaternion.identity);
 
-            //newEnemy.GetComponent<PathFollower>().SetWaveConfig(waveConfig);
-            newEnemy.GetComponent<BomberFollowScript>().SetWaveConfig(waveConfig);
+                //newEnemy.GetComponent<PathFollower>().SetWaveConfig(waveConfig);
+                newEnemy.GetComponent<BomberFollowScript>().SetWaveConfig(waveConfig);
 
-            yield return new WaitForSeconds(waveConfig.GetTimeBetweenSpawns());
-            
-
+                yield return new WaitForSeconds(waveConfig.GetTimeBetweenSpawns());
         }
     }
 }

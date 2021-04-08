@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class BomberShoot : MonoBehaviour
 {
-    public Transform shoot1, shoot2, shoot3;
-    public BomberFollowScript toShoot;
+    public Transform[] shootPosition;
+    private BomberFollowScript toShoot;
     public GameObject bulletPre;
     float shotCounter;
     [SerializeField] float minTimeBetweenShots = 0.2f;
@@ -15,14 +15,16 @@ public class BomberShoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        shoot1.GetComponent<Transform>();
+       // shootPosition.GetComponent<Transform>();
         shotCounter = UnityEngine.Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+        toShoot = GetComponent<BomberFollowScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
         CountDownAndShoot();
+        //Debug.Log(shotCounter);
     }
 
     private void CountDownAndShoot()
@@ -39,24 +41,28 @@ public class BomberShoot : MonoBehaviour
     {
         if (this.gameObject.tag == "Bomb")
         {
+            Debug.Log("Shoot");
             if (toShoot.canMove != false)
             {
-                //Debug.Log("Shoot");
-                GameObject enemyBlast = Instantiate(bulletPre, shoot1.position, shoot1.rotation) as GameObject;
-                GameObject enemyBlast2 = Instantiate(bulletPre, shoot2.position, shoot2.rotation) as GameObject;
-                GameObject enemyBlast3 = Instantiate(bulletPre, shoot3.position, shoot3.rotation) as GameObject;
-                enemyBlast3.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -900f);
-                enemyBlast2.GetComponent<Rigidbody2D>().velocity = new Vector2(-15.0f, 0);
-                enemyBlast.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -900f);
+                
+                for (int i = 0; i < shootPosition.Length;i++)
+                {
+                   
+                    GameObject eneBlast = Instantiate(bulletPre, shootPosition[i].position, shootPosition[i].rotation) as GameObject;
+                    //eneBlast.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -15);
+                }
             }
         }
         else if (this.gameObject.tag == "Bomb(G)")
         {
             if (toShoot.canMove != false)
             {
-                GameObject eneBlast = Instantiate(bulletPre, shoot1.position, shoot1.rotation) as GameObject;
-              
-                //eneBlast.GetComponent<Rigidbody2D>().AddForce(-transform.up * 14f, ForceMode2D.Impulse);
+
+                for (int i = 0; i < shootPosition.Length; i++)
+                {
+                    GameObject eneBlast = Instantiate(bulletPre, shootPosition[i].position, shootPosition[i].rotation) as GameObject;
+                   // eneBlast.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -15);
+                }
             }
         }
 

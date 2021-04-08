@@ -14,9 +14,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animation/Beatles(Green).controller
+    - Assets/Animation/Beatles(Green).controller.meta
+    - Assets/Animation/Beatles(Purple)_Flying.anim
+    - Assets/Animation/Beatles(Purple)_Flying.anim.meta
+    - Assets/Animation/Beatles(Red).controller
+    - Assets/Animation/Beatles(Red).controller.meta
+    - Assets/Animation/Beatles(green)_Flying.anim
+    - Assets/Animation/Beatles(green)_Flying.anim.meta
+    - Assets/Animation/Beatles(red)_Flying.anim
+    - Assets/Animation/Beatles(red)_Flying.anim.meta
+    - Assets/Art/Beatles.png
+    - Assets/Art/Beatles.png.meta
+    - Assets/Art/Beatles.psd
+    - Assets/Art/Beatles.psd.meta
+    - Assets/EnemyPaths/Bombers.meta
+    - Assets/EnemyPaths/Bombers/PathA.prefab
+    - Assets/EnemyPaths/Bombers/PathA.prefab.meta
+    - Assets/EnemyPaths/Bombers/PathB.prefab
+    - Assets/EnemyPaths/Bombers/PathB.prefab.meta
+    - Assets/EnemyPaths/Bombers/PathC.prefab
+    - Assets/EnemyPaths/Bombers/PathC.prefab.meta
+    - Assets/EnemyPaths/Colored Beatles.meta
+    - Assets/EnemyPaths/Colored Beatles/PathA.prefab
+    - Assets/EnemyPaths/Colored Beatles/PathA.prefab.meta
+    - Assets/EnemyPaths/Colored Beatles/PathB.prefab
+    - Assets/EnemyPaths/Colored Beatles/PathB.prefab.meta
+    - Assets/EnemyPaths/PathA.prefab
+    - Assets/EnemyPaths/PathA.prefab.meta
+    - Assets/EnemyPaths/PathB.prefab
+    - Assets/EnemyPaths/PathB.prefab.meta
+    - Assets/EnemyPaths/PathC.prefab
+    - Assets/EnemyPaths/PathC.prefab.meta
+    - Assets/Prefabs/Enemies.meta
+    - Assets/Prefabs/Enemies/Beatles(Green).prefab
+    - Assets/Prefabs/Enemies/Beatles(Green).prefab.meta
+    - Assets/Prefabs/Enemies/Beatles(Purple).prefab
+    - Assets/Prefabs/Enemies/Beatles(Purple).prefab.meta
+    - Assets/Prefabs/Enemies/Beatles(Red).prefab
+    - Assets/Prefabs/Enemies/Beatles(Red).prefab.meta
+    - Assets/Prefabs/Enemies/Bomber(G).prefab
+    - Assets/Prefabs/Enemies/Bomber(G).prefab.meta
+    - Assets/Prefabs/Enemies/Bomber.prefab
+    - Assets/Prefabs/Enemies/Bomber.prefab.meta
+    - Assets/Prefabs/EnemyBullet 1.prefab
+    - Assets/Prefabs/EnemySpawner.prefab
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scripts/Enemy/BomberShoot.cs
+    - Assets/Scripts/Enemy/EnemySpawner.cs
+    - Assets/Scripts/Enemy/PathFollower.cs
+    - Assets/Scripts/Enemy/WaveConfig.cs
+    - Assets/Waves/BeatlesWave.asset
+    - Assets/Waves/BeatlesWave.asset.meta
+    - Assets/Waves/BeatlesWave2.asset
+    - Assets/Waves/BeatlesWave2.asset.meta
+    - Assets/Waves/Bomber(Green)Wave.asset
+    - Assets/Waves/Bomber(Green)Wave.asset.meta
+    - Assets/Waves/BomberWave.asset
+    - Assets/Waves/BomberWave.asset.meta
+    - Assets/Waves/BomberWave2.asset
+    - Assets/Waves/BomberWave2.asset.meta
     - 
-    m_Values: 01
-  RevisionSummary: Bomb Enemy
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

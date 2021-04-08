@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfig:
-  - {fileID: 11400000, guid: 394944c4dbd1fda47b38ce74bcc36f67, type: 2}
-  - {fileID: 11400000, guid: 039146a6b8640cc40b104f6f0699f41e, type: 2}
+  - {fileID: 11400000, guid: cfeedff91ebf9af478ea31ff927d3882, type: 2}
+  looping: 1

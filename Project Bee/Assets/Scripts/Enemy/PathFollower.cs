@@ -4,7 +4,7 @@ using System.Collections;
 
 public class PathFollower : MonoBehaviour
 {
-    WaveConfig waveConfig;
+    [SerializeField] WaveConfig waveConfig;
     [SerializeField] GameObject FX;
     private int waypointIndex = 0;
     List<Transform> wayPoints;

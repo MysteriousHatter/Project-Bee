@@ -15,11 +15,11 @@ C:/Users/Sheku/Desktop/Game Development/2D/Project-Bee/Project Bee
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50348
+51619
 Successfully changed project path to: C:/Users/Sheku/Desktop/Game Development/2D/Project-Bee/Project Bee
 C:/Users/Sheku/Desktop/Game Development/2D/Project-Bee/Project Bee
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 16963.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -34,5 +34,292 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003805 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 3.879800 ms (FindLiveObjects: 0.451500 ms CreateObjectMapping: 0.176700 ms MarkObjects: 3.069200 ms  DeleteObjects: 0.179600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Waves/PracticeWave.asset
+  artifactKey: Guid(cfeedff91ebf9af478ea31ff927d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/PracticeWave.asset using Guid(cfeedff91ebf9af478ea31ff927d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e57d68b5878ed50fdd73bf16970d92') in 0.298723 seconds
+  Import took 0.302746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2818.765914 seconds.
+  path: Assets/EnemyPaths
+  artifactKey: Guid(fb50e08935ae05145833504f05746563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths using Guid(fb50e08935ae05145833504f05746563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1bbdc335d31dd5427b11b3a6287b4c') in 0.005294 seconds
+  Import took 0.009659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279235 seconds.
+  path: Assets/EnemyPaths
+  artifactKey: Guid(fb50e08935ae05145833504f05746563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths using Guid(fb50e08935ae05145833504f05746563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1bbdc335d31dd5427b11b3a6287b4c') in 0.004309 seconds
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.389297 seconds.
+  path: Assets/EnemyPaths/Colored Beatles
+  artifactKey: Guid(c9dddfc9ba17e014f88f3812f6caecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Colored Beatles using Guid(c9dddfc9ba17e014f88f3812f6caecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0216dfcff2d350cdf73de2cd0cd80f') in 0.005612 seconds
+  Import took 0.010463 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2266.
+Total: 3.256400 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.692400 ms  DeleteObjects: 0.155600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 379.891702 seconds.
+  path: Assets/Waves/BeatlesWave.asset
+  artifactKey: Guid(394944c4dbd1fda47b38ce74bcc36f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BeatlesWave.asset using Guid(394944c4dbd1fda47b38ce74bcc36f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f65a726fb677ea089363ba2ef8aec05') in 0.019227 seconds
+  Import took 0.023223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.806595 seconds.
+  path: Assets/Waves/BeatlesWave2.asset
+  artifactKey: Guid(039146a6b8640cc40b104f6f0699f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BeatlesWave2.asset using Guid(039146a6b8640cc40b104f6f0699f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626187ad036d5d1cadcb4bef5eeccc54') in 0.007119 seconds
+  Import took 0.010577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013188 seconds.
+  path: Assets/Waves/BeatlesWave2.asset
+  artifactKey: Guid(039146a6b8640cc40b104f6f0699f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BeatlesWave2.asset using Guid(039146a6b8640cc40b104f6f0699f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626187ad036d5d1cadcb4bef5eeccc54') in 0.006162 seconds
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.305301 seconds.
+  path: Assets/EnemyPaths/Colored Beatles/PathA.prefab
+  artifactKey: Guid(f57771ccd288b7d49b6c5099e494fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Colored Beatles/PathA.prefab using Guid(f57771ccd288b7d49b6c5099e494fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31cde2857d3ec87b6ebde749bbbcee6') in 0.086839 seconds
+  Import took 0.091725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/EnemyPaths/Colored Beatles/PathB.prefab
+  artifactKey: Guid(cd433d67d6376754fa5a369f2aa38611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Colored Beatles/PathB.prefab using Guid(cd433d67d6376754fa5a369f2aa38611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10da8726551a6d21edcdc2dceaad6bba') in 0.092104 seconds
+  Import took 0.095404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.273577 seconds.
+  path: Assets/EnemyPaths/Bombers
+  artifactKey: Guid(be28cd952e59e11419cd4448e8e0dcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Bombers using Guid(be28cd952e59e11419cd4448e8e0dcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c244ea187c8b3686b7ea2c119cc7b4b0') in 0.005538 seconds
+  Import took 0.010304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 570.401926 seconds.
+  path: Assets/EnemyPaths/Bombers/PathA.prefab
+  artifactKey: Guid(3d36ba303ed2e3e4e844e0a8f23b5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Bombers/PathA.prefab using Guid(3d36ba303ed2e3e4e844e0a8f23b5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ce710406ecd9dd86e1f26ae50d0352') in 0.007189 seconds
+  Import took 0.012507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011350 seconds.
+  path: Assets/EnemyPaths/Bombers/PathA.prefab
+  artifactKey: Guid(3d36ba303ed2e3e4e844e0a8f23b5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Bombers/PathA.prefab using Guid(3d36ba303ed2e3e4e844e0a8f23b5f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ce710406ecd9dd86e1f26ae50d0352') in 0.009347 seconds
+  Import took 0.013520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.896313 seconds.
+  path: Assets/EnemyPaths/Bombers/PathB.prefab
+  artifactKey: Guid(16355cbe66dc1ca4f834b3142e03ac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Bombers/PathB.prefab using Guid(16355cbe66dc1ca4f834b3142e03ac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599f82170d576fca49b4be1da43248e') in 0.006510 seconds
+  Import took 0.010894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013651 seconds.
+  path: Assets/EnemyPaths/Bombers/PathB.prefab
+  artifactKey: Guid(16355cbe66dc1ca4f834b3142e03ac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Bombers/PathB.prefab using Guid(16355cbe66dc1ca4f834b3142e03ac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599f82170d576fca49b4be1da43248e') in 0.007460 seconds
+  Import took 0.011854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.698343 seconds.
+  path: Assets/EnemyPaths/Bombers/PathC.prefab
+  artifactKey: Guid(dc523f1e981b348418c75234b3169cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyPaths/Bombers/PathC.prefab using Guid(dc523f1e981b348418c75234b3169cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e6da66a92a554e73563e064844d45') in 0.005680 seconds
+  Import took 0.010277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.491792 seconds.
+  path: Assets/Waves/New Folder
+  artifactKey: Guid(8b847cb5ac73598408af6362370bb203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/New Folder using Guid(8b847cb5ac73598408af6362370bb203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6701da941b5a8a5db4e574a0ab1a45de') in 0.006425 seconds
+  Import took 0.012409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.252012 seconds.
+  path: Assets/Waves/Bomber(Green)Wave.asset
+  artifactKey: Guid(940d926214aea4c4eb191e81342474d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/Bomber(Green)Wave.asset using Guid(940d926214aea4c4eb191e81342474d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524fbae41b61b86688931da11f11aa89') in 0.055623 seconds
+  Import took 0.061727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.316348 seconds.
+  path: Assets/Waves/BomberWave.asset
+  artifactKey: Guid(cfeedff91ebf9af478ea31ff927d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BomberWave.asset using Guid(cfeedff91ebf9af478ea31ff927d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532396070e181297a349a94ab5067877') in 0.079489 seconds
+  Import took 0.084772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.083062 seconds.
+  path: Assets/Waves/BomberWave2.asset
+  artifactKey: Guid(921d8f45a04f5c14b9f63f112bb32257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BomberWave2.asset using Guid(921d8f45a04f5c14b9f63f112bb32257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fe740905d5b5382acc826008dd0869') in 0.007367 seconds
+  Import took 0.012094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011550 seconds.
+  path: Assets/Waves/BomberWave2.asset
+  artifactKey: Guid(921d8f45a04f5c14b9f63f112bb32257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BomberWave2.asset using Guid(921d8f45a04f5c14b9f63f112bb32257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fe740905d5b5382acc826008dd0869') in 0.008403 seconds
+  Import took 0.011904 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 2.718700 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.173200 ms MarkObjects: 2.205300 ms  DeleteObjects: 0.121400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.892308 seconds.
+  path: Assets/Waves/Bomber(Green)Wave.asset
+  artifactKey: Guid(940d926214aea4c4eb191e81342474d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/Bomber(Green)Wave.asset using Guid(940d926214aea4c4eb191e81342474d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47e55a594671c7103090961d384f06a') in 0.025207 seconds
+  Import took 0.028684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Waves/BeatlesWave2.asset
+  artifactKey: Guid(039146a6b8640cc40b104f6f0699f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BeatlesWave2.asset using Guid(039146a6b8640cc40b104f6f0699f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1f45f3ccf224c3c1dca78ae1da6bca') in 0.016296 seconds
+  Import took 0.021029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Waves/BeatlesWave.asset
+  artifactKey: Guid(394944c4dbd1fda47b38ce74bcc36f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BeatlesWave.asset using Guid(394944c4dbd1fda47b38ce74bcc36f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93ae59912104d01ef0f2f580ca285f4') in 0.015278 seconds
+  Import took 0.020447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Waves/BomberWave.asset
+  artifactKey: Guid(cfeedff91ebf9af478ea31ff927d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BomberWave.asset using Guid(cfeedff91ebf9af478ea31ff927d3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d378e739dcd43aa02e3044423984adf') in 0.015322 seconds
+  Import took 0.019926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Waves/BomberWave2.asset
+  artifactKey: Guid(921d8f45a04f5c14b9f63f112bb32257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves/BomberWave2.asset using Guid(921d8f45a04f5c14b9f63f112bb32257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65beccfca501ff6d2a0f4d4fe620afff') in 0.012555 seconds
+  Import took 0.018356 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

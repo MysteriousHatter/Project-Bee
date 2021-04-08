@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c517ccc7c454b4896695f62889c2f9, type: 3}
+  m_Name: BomberWave
+  m_EditorClassIdentifier: 
+  enemyPrefab:
+  - {fileID: 5359048313941306636, guid: c8c6e150bdad13945a8a8f0281440bda, type: 3}
+  enemyPrefab2: {fileID: 203594837014052242, guid: 10784211c11486947af8b3493b0e719c, type: 3}
+  pathPrefab: {fileID: 4821566049064615250, guid: 3d36ba303ed2e3e4e844e0a8f23b5f78, type: 3}
+  timeBetweenSpawns: 8.07
+  spawnRandomFactor: 4.28
+  numberOfEnemies: 1
+  moveSpeed: 2

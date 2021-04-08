@@ -9,11 +9,11 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 Bounds;
     private readonly float objectWidth;
     private readonly float objectHeight;
-    [SerializeField] AudioClip buzzing;
+    //[SerializeField] AudioClip buzzing;
 
     private void Start()
     {
-        GetComponent<AudioSource>().PlayOneShot(buzzing);
+        //GetComponent<AudioSource>().PlayOneShot(buzzing);
         Cursor.lockState = CursorLockMode.Confined;
         Bounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }
